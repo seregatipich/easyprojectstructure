@@ -7,7 +7,7 @@ Easy Project Structure is a handy Python package that makes it super easy to gen
 - **View Project Structure**: Get a clear, simple text representation of all the folders and files in your project.
 - **Choose How Deep You Go**: Set how many folder levels you want to see.
 - **Skip Over Common Files**: It automatically ignores files like build artifacts and temp files (just like a .gitignore would).
-- **Easy to Use**: Just run the `getprojectstruct` command to view your project layout.
+- **Easy to Use**: Just run the `getprojectstructure` command to view your project layout.
 - **Check Out Subfolders**: Want to see what's inside subfolders? Just point the tool to the path you need.
 
 ## Table of Contents
@@ -42,7 +42,7 @@ Here's how you can use Easy Project Structure to take a look at your project's f
 Want to see the structure of your current directory? Just type:
 
 ```sh
-getprojectstruct
+getprojectstructure
 ```
 
 **Example Output**:
@@ -63,7 +63,7 @@ your_project/
 To view the structure of a different directory, just provide the path:
 
 ```sh
-getprojectstruct path/to/your/directory
+getprojectstructure path/to/your/directory
 ```
 
 **Example**:
@@ -86,13 +86,13 @@ src/
 Need some help or want to see more options? Just run:
 
 ```sh
-getprojectstruct -h
+getprojectstructure -h
 ```
 
 **Output**:
 
 ```text
-usage: getprojectstruct [-h] [path]
+usage: getprojectstructure [-h] [path]
 
 Outputs the directory structure of the given path.
 

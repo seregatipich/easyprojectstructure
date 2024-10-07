@@ -10,7 +10,8 @@ setup(
     url="https://github.com/seregatipich/easyprojectstructure",
     entry_points={
         "console_scripts": [
-            "getprojectstruct=easyprojectstructure.__main__:main",
+            "getprojectstructure=easyprojectstructure.__main__:main",
+            "easyprojectstructure=easyprojectstructure.__main__:main"
         ],
     },
     classifiers=[
