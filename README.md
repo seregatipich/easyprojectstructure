@@ -1,14 +1,14 @@
 # Easy Project Structure
 
-Easy Project Structure is a simple Python package that allows you to generate and display the directory structure of your Python projects directly from the command line. This tool helps you visualize your project's organization and is useful for documentation, planning, and sharing the structure with others.
+Easy Project Structure is a handy Python package that makes it super easy to generate and view the folder layout of your Python projects right from your terminal. It's perfect for when you want to see how your project is organized, and it's also great for documentation, planning, or just sharing your project's structure with others.
 
 ## Features
 
-- **Display Project Structure**: Outputs a textual representation of your project's directory and file structure.
-- **Customizable Depth**: Optionally specify the depth of directories to display.
-- **Exclude Common Files**: Automatically excludes common build artifacts and temporary files (similar to `.gitignore` patterns).
-- **Simple Command-Line Interface**: Use the `getprojectstruct` command to display structures easily.
-- **Recursive Display**: View the structure of subdirectories by specifying a path.
+- **View Project Structure**: Get a clear, simple text representation of all the folders and files in your project.
+- **Choose How Deep You Go**: Set how many folder levels you want to see.
+- **Skip Over Common Files**: It automatically ignores files like build artifacts and temp files (just like a .gitignore would).
+- **Easy to Use**: Just run the `getprojectstruct` command to view your project layout.
+- **Check Out Subfolders**: Want to see what's inside subfolders? Just point the tool to the path you need.
 
 ## Table of Contents
 
@@ -25,21 +25,21 @@ Easy Project Structure is a simple Python package that allows you to generate an
 
 ## Installation
 
-Install Easy Project Structure via pip:
+You can quickly install Easy Project Structure using pip:
 
 ```sh
 pip install git+https://github.com/seregatipich/easyprojectstructure.git
 ```
 
-This command will install the package and its minimal dependencies.
+This will grab the package and set up any basic requirements you need.
 
 ## Usage
 
-Below are examples demonstrating how to use Easy Project Structure to display your project's directory structure.
+Here's how you can use Easy Project Structure to take a look at your project's folder layout.
 
 ### Basic Usage
 
-Display the structure of the current directory:
+Want to see the structure of your current directory? Just type:
 
 ```sh
 getprojectstruct
@@ -60,7 +60,7 @@ your_project/
 
 ### Specify a Directory
 
-Display the structure of a specific directory:
+To view the structure of a different directory, just provide the path:
 
 ```sh
 getprojectstruct path/to/your/directory
@@ -83,7 +83,7 @@ src/
 
 ### Help Command
 
-Get help and see available options:
+Need some help or want to see more options? Just run:
 
 ```sh
 getprojectstruct -h
@@ -105,35 +105,35 @@ optional arguments:
 
 ## Dependencies
 
-Easy Project Structure relies on the Python Standard Library and does not require any external dependencies.
+This tool uses Python's built-in libraries, so there are no extra packages to install.
 
 ## Running Tests
 
-The package comes with unit tests to validate its functionality. To run the tests, navigate to the root directory of the project and execute:
+If you want to make sure everything is working fine, you can run the included unit tests. Just go to the root folder of the project and use this command:
 
 ```sh
 python -m unittest discover tests
 ```
 
-This command will run all available tests and ensure that everything is working as expected.
+It will run all the tests and make sure everything's running smoothly.
 
 ## Contributing
 
-We welcome contributions to improve Easy Project Structure! If you would like to contribute:
+We'd love your help to make Easy Project Structure even better! If you'd like to contribute:
 
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a pull request.
+1. Fork the repo.
+2. Create a new branch for your feature: `git checkout -b feature/YourFeature`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to your branch: `git push origin feature/YourFeature`.
+5. Open a pull request and we'll review it.
 
 ## License
 
-This library is licensed under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license.
+This package is available under the MIT License, so feel free to use, modify, and share it as you see fit.
 
 ## Contact
 
-For questions or issues, feel free to reach out:
+If you have any questions or run into any issues, don't hesitate to reach out:
 
 - **Author**: Sergei Poluektov
 - **Email**: [seregatipich@outlook.com](mailto:seregatipich@outlook.com)
