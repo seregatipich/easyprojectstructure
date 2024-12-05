@@ -85,6 +85,7 @@ exclusion_patterns = [
     ".pytype/",
     "cython_debug/",
     ".idea/",
+    ".git/"
 ]
 
 

@@ -28,7 +28,7 @@ Easy Project Structure is a handy Python package that makes it super easy to gen
 You can quickly install Easy Project Structure using pip:
 
 ```sh
-pip install git+https://github.com/seregatipich/easyprojectstructure.git
+pip install easyprojectstructure
 ```
 
 This will grab the package and set up any basic requirements you need.
